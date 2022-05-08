@@ -1,0 +1,31 @@
+TestNG Class 1 - 5/8/22
+
+TestNG is a testing tool that helps structure test cases using different annotations.
+It can be integrated with Cucumber, Maven, and Selenium.
+
+Benefits of TestNG
+1. Reports
+2. Annotations (e.g. @Test, @BeforeMethod, @BeforeClass)
+3. Parallel Testing
+4. Batch Execution
+5. Assertions (Hard, Soft)
+6. Data Parameterization
+
+ANNOTATIONS
+-- do not need a main method
+-- a tag that provides additional information about a class, interface, or method in TestNG
+
+@Test
+@BeforeMethod
+@AfterMethod
+@BeforeClass
+@AfterClass
+
+@Test --> test case. You should write your test cases under this annotation.
+@BeforeMethod --> executed before test case or before the main method
+
+
+ASSERTIONS
+
+
+Soft Assertions
